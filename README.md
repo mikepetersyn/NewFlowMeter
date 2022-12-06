@@ -12,6 +12,7 @@ For reading in PCAP files and producing into kafka topics use the application wi
 `-p path/to/pcap -k localhost:9092 topic-name group-id`
 
 For listening on a network interfaces (execute as root) and producing into kafka topic use the following parameters:
+
 `-i interface-name -k localhost:9092 topic-name group-id`
 
 ## Configuration
