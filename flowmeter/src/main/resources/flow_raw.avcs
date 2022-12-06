@@ -1,0 +1,14 @@
+{
+  "name": "flow_raw",
+  "type": "record",
+  "namespace": "verca.ids",
+  "fields": [
+    {
+      "name": "flow_record",
+      "type": {
+        "type": "array",
+        "items": "double"
+      }
+    }
+  ]
+}
